@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка</title>
+    <link rel="stylesheet" href="style2.css"> <!-- Подключение CSS файла -->
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Графический дизайн</h1>
+    <div class="burger-container">
+        <button class="burger-menu" aria-label="Открыть меню">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+       <nav class="nav-menu">
+        <a href="#services">Услуги</a>
+        <a href="#price">Прайс</a>
+        <a href="#portfolio">Портфолио</a> 
+        <a href="#reviews">Отзывы</a>
+       </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <h1><span class="highlight">Ермалович Виолетта</span> — графический дизайнер.</h1>
+    <p>Создаю привлекательный, уникальный дизайн, который привлекает клиентов с первого взгляда!</p>
+    <p><span class="highlight">Моя цель</span> — помочь вашему бизнесу выделяться.</p>
+    <a href="https://t.me/vvveettaaaa" class="contact-button">Связаться со мной</a>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <h2>Портфолио</h2>
+    <div class="portfolio-container">
+        <!-- БЛОК 1 -->
+        <div class="portfolio-item">
+            <h3>Создание карточек товаров</h3>
+            <img src="инфографика.png" alt="Проект 1" class="portfolio-img">
+            <p>Инфографика - визуальное представление товара, которое используется
+                на маркетплейсах, чтобы выделиться среди конкурентов и повысить CTR.
+                Она помогает выделить продукт и повысить его привлекательность на маркетплейсах.</p>
+                <a href="https://t.me/vi_erma_design" class="portfolio-button">ПОРТФОЛИО</a>
+        </div>
+
+        <!-- БЛОК 2 -->
+        <div class="portfolio-item">
+            <h3>Оформление социальных сетей</h3>
+            <img src="баннер сообщество.png" alt="Проект 2" class="portfolio-img">
+            <p>Современные социальные сети требуют уникального
+                 и узнаваемого визуального стиля. Главная цель - привлечение аудитории, 
+                 создание запоминающегося визуального имиджа и повышение вовлеченности подписчиков.</p>
+                 <a href="https://t.me/vi_erma_design" class="portfolio-button">ПОРТФОЛИО</a>
+        </div>
+
+        <!-- БЛОК 3 -->
+        <div class="portfolio-item">
+            <h3>Оформление рекламных макетов</h3>
+            <img src="баннер креатив.png"alt="Проект 3" class="portfolio-img">
+            <p>Рекламный креатив — это ключевые элементы для продвижения в интернете. Основная цель - создание уникального 
+                контента для рекламы, который выделяет бренд и привлекает внимание аудитории.</p>
+                <a href="https://t.me/vi_erma_design" class="portfolio-button">ПОРТФОЛИО</a>
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section id="services" class="services">
+    <h2>Услуги</h2>
+    <div class="services-container">
+        <!-- Услуга 1 -->
+        <div class="service-item">
+            <div class="service-icon-wrapper">
+                <img src="инфографика наушники.png" alt="Создание инфографики" class="service-icon">
+            </div>
+            <h3>ИНФОГРАФИКА</h3>
+            <p>Визуальный способ подачи информации, который помогает выделить ключевые особенности продукта.
+                Она привлекает внимание и структурирует информацию. Качественная инфографика помогает бренду выделиться на фоне конкурентов.</p>
+        </div>
+
+        <!-- Услуга 2 -->
+        <div class="service-item">
+            <div class="service-icon-wrapper">
+                <img src="рич.jpg" alt="Создание rich-контента" class="service-icon">
+            </div>
+            <h3>RICH-контент</h3>
+            <p>Мультимедийный лендинг с максимально подробным описанием товара.
+                <b>Основная задача</b> - дать покупателю полное представление о продукте, ответить на все вопросы
+                покупателя и подтолкнуть к покупке.</p>
+        </div>
+
+        <!-- Услуга 3 -->
+        <div class="service-item">
+            <div class="service-icon-wrapper">
+                <img src="креатив.png" alt="Создание креативов" class="service-icon">
+            </div>
+            <h3>РЕКЛАМНЫЙ КРЕАТИВ</h3>
+            <p>Оригинальные, привлекательные идеи и концепции, используемые для
+                продвижения товаров, услуг или брендов. 
+            <b>Основная цель</b> - привлечь внимание целевой аудитории, вызвать интерес, побудить к действию.</p>
+        </div>
+
+        <!-- Услуга 4 -->
+        <div class="service-item">
+            <div class="service-icon-wrapper">
+                <img src="инфослайд.png" alt="Создание инфослайда" class="service-icon">
+            </div>
+            <h3>ИНФОСЛАЙД</h3>
+            <p>Графический элемент, разработанный для размещения на маркетплейсах, чтобы помочь покупателям избежать возможных проблем. 
+                Он содержит ключевую информацию, которая делает процесс выбора и покупки максимально простым.</p>
+        </div>
+
+        <!-- Услуга 5 -->
+        <div class="service-item">
+            <div class="service-icon-wrapper">
+                <img src="дрель-шуруповерт.png" alt="Создание ресайза" class="service-icon">
+            </div>
+            <h3>РЕСАЙЗ</h3>
+            <p>Процесс изменения размеров и параметров изображений товаров,
+                чтобы они соответствовали требованиям необходимого маркетплейса.
+            Это способствует улучшению визуального восприятия товаров и повышению привлекательности для покупателей.</p>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <p>&copy; 2024 Ермалович Виолетта. Все права защищены.</p>
+        </div>
+        <div class="footer-links">
+            <a href="https://t.me/vvveettaaaa" target="_blank">Telegram</a>
+            <a href="https://www.instagram.com/vi_erma._/profilecard/?igsh=MncxMDNzMmVjcTl2" target="_blank">Instagram</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
